@@ -1,0 +1,159 @@
+
+
+body{
+    background-color:#ADBBDA;
+}
+.container12{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+
+ .cont > img {
+    float:left;
+    height:500px;
+    width: 400px;
+    margin-right: 20px;
+    
+    
+
+}
+
+.header{
+    
+    display: inline-block;
+    width: 98%;
+    margin:15px;
+    padding:10px;
+    border-radius: 30px;
+    
+    background-color:#7091E6;
+
+}
+
+.logo{
+    float:left;
+   
+    
+}
+ .navbar{
+    float: right;
+    display: flex;
+    gap: 10px;
+   
+
+ }
+
+ .navabout{
+    background-color: blue;
+    border-radius: 3px;
+ }
+
+ 
+
+ .about{
+    display:flex;
+    margin-left: 14%;
+    gap:20px;
+    flex-wrap: wrap;
+    width:70%;
+    
+
+
+
+
+ }
+
+ .about > div{
+    border-radius: 10%;
+    background-color:#8697C4 ;
+    text-align: center;
+    border: 20px solid #8697C4;
+    margin: 10px;
+    flex: 1;
+    height: fit-content;
+   
+    
+
+
+ }
+ .abt{
+    display: flex;
+    justify-content: center;
+    margin-top:50px; 
+ }
+
+
+ .img{
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+ }
+
+.skill{
+
+    margin-left: 15%;
+    margin-top: 100px;;
+
+
+}
+
+
+.project{
+    margin-left: 15%;margin-top: 100px;
+
+}
+.project1{
+    margin:50px;
+    margin-left: 0px;
+    
+}
+
+.project1 > img{
+    width:80%;
+    border-radius: 50px;
+    
+}
+
+.contact{
+
+    margin-left: 15%;
+
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width:70%;
+}
+label {
+    margin-bottom: 20px;
+}
+input, textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #7091E6 ;
+}               
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+
+ @media (max-width:1100px){
+    .about > div{
+        height:;
+    }
+
+ }
