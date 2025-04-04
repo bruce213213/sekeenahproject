@@ -152,8 +152,9 @@ button {
 
 
  @media (max-width:1100px){
-    .about > div{
-        height:;
+    .cont {
+        width: 90%;
+        margin-left: 4%;
     }
 
  }
