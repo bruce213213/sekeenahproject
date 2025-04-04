@@ -158,15 +158,13 @@ button {
 
  @media (max-width:1100px){
     .cont {
-        width: auto;
-        margin-left: 5px;;
+        width: 80%;
+        margin-left: 10px;;
     }
-     .cont > img{
-         width: auto;
-         border-radius: 10px;
+    
 
 
-     }
+    
 
      
 .header{
